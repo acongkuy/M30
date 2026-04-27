@@ -29,7 +29,7 @@ const BRACKET_DATA = {
   // sang juara
   finalLabel: "JUARA",
   juaraLabel: "CHAMPION",
-  namaJuara: "B30" 
+  namaJuara: "B28" 
 };
   //jangan pernah sentuh kode dibawah!!!!!!!!🤬😡😡😡
 const App = () => {
