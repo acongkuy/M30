@@ -143,7 +143,7 @@ const App = () => {
 
         {/* KOLOM 2: MATCHES (M1-M9) */}
         <div className="flex flex-col justify-around h-full py-2">
-          <div className="text-[10px] font-bold text-blue-500 text-center tracking-widest uppercase">9 Besar</div>
+          <div className="text-[10px] font-bold text-blue-500 text-center tracking-widest uppercase">QUALIFICATION</div>
           {BRACKET_DATA.matchLabels.map((label, i) => (
             <div key={i} ref={el => setRef(`M${i}`, el)} className="bg-[#0d1117] border border-blue-900/40 w-32 h-12 flex items-center justify-center rounded-sm z-10 shadow-lg group">
               <span className="text-[11px] font-black text-blue-400 italic">{label}</span>
@@ -153,7 +153,7 @@ const App = () => {
 
         {/* KOLOM 3: QUARTER FINALS (QF1-QF4) */}
         <div className="flex flex-col justify-around h-full py-10">
-          <div className="text-[10px] font-bold text-purple-500 text-center tracking-widest uppercase">QF</div>
+          <div className="text-[10px] font-bold text-purple-500 text-center tracking-widest uppercase">SEMI FINAL</div>
           {BRACKET_DATA.qfLabels.map((label, i) => (
             <div key={i} ref={el => setRef(`QF${i}`, el)} className="bg-[#0d1117] border border-purple-900/40 w-32 h-12 flex items-center justify-center rounded-sm z-10 shadow-lg">
               <span className="text-[11px] font-black text-purple-400 italic">{label}</span>
@@ -163,7 +163,7 @@ const App = () => {
 
         {/* KOLOM 4: SEMI FINALS */}
         <div className="flex flex-col justify-around h-full py-32">
-          <div className="text-[10px] font-bold text-pink-500 text-center tracking-widest uppercase">Semi</div>
+          <div className="text-[10px] font-bold text-pink-500 text-center tracking-widest uppercase">FINAL</div>
           {BRACKET_DATA.sfLabels.map((label, i) => (
             <div key={i} ref={el => setRef(`SF${i}`, el)} className="bg-[#0d1117] border border-pink-900/40 w-36 h-14 flex items-center justify-center rounded-sm z-10 shadow-xl text-center px-2">
               <span className="text-[10px] font-black text-pink-400 italic uppercase leading-tight">{label}</span>
