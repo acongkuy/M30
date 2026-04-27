@@ -173,7 +173,7 @@ const App = () => {
 
         {/* KOLOM 5: GRAND FINAL */}
         <div className="flex flex-col justify-center h-full">
-          <div className="text-[10px] font-bold text-white/40 text-center mb-4 tracking-widest uppercase">Final</div>
+          <div className="text-[10px] font-bold text-white/40 text-center mb-4 tracking-widest uppercase">WINNER</div>
           <div ref={el => setRef(`FINAL`, el)} className="bg-gradient-to-br from-pink-800 to-red-900 border-2 border-white/20 w-40 h-16 flex items-center justify-center rounded-sm z-10 shadow-2xl hover:scale-105 transition-transform">
             <span className="text-sm font-black text-white italic tracking-widest uppercase">{BRACKET_DATA.finalLabel}</span>
           </div>
